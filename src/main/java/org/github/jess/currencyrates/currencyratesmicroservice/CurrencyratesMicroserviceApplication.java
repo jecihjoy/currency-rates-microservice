@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CurrencyratesMicroserviceApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(CurrencyratesMicroserviceApplication.class, args);
+		System.out.println("app loaded");
 	}
 
 }
